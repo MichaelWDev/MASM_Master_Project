@@ -1,0 +1,9 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Win32" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/old/" />
+  <Project Path="MASM_Master_Project/MASM_Master_Project.vcxproj" Id="b5f722e0-1514-4739-a5c4-7221a1c8b792" />
+</Solution>

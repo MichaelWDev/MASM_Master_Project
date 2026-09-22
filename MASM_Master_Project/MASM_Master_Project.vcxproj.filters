@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Assignments">
+      <UniqueIdentifier>{9ceeea48-63a4-46d6-8509-5b68d04a62a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Labs">
+      <UniqueIdentifier>{62cde3b6-66a4-4546-ae7c-45a406bb843d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Assignments\Assignment_1">
+      <UniqueIdentifier>{e9154dde-3064-4a9e-8aca-802a3cce79a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Labs\Lab_1">
+      <UniqueIdentifier>{24f6589b-89e9-49bf-a023-c9177068658a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Templates">
+      <UniqueIdentifier>{9a764c2c-c552-488d-829c-985ae80b647a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Labs\Lab_2">
+      <UniqueIdentifier>{764d29b9-cdf6-44f2-9d6a-b8c2c65e3491}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Labs\Lab_3">
+      <UniqueIdentifier>{e0237c03-3620-478e-ae5d-295ba45d666f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Labs\Lab_4">
+      <UniqueIdentifier>{99dedd2f-e64b-4ef5-82b7-240b89dc7ea4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Labs\Lab_5">
+      <UniqueIdentifier>{ddb2931a-e8b7-400e-a68c-f02b103d8093}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Labs\Lab_5.2">
+      <UniqueIdentifier>{30751259-002f-416f-8c2b-ecde0d5dc2fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Labs\Lab_6.1">
+      <UniqueIdentifier>{a3006694-f2fc-4275-a44b-87991208afd6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="assignment_1.asm">
+      <Filter>Source Files\Assignments\Assignment_1</Filter>
+    </MASM>
+    <MASM Include="template.asm">
+      <Filter>Source Files\Templates</Filter>
+    </MASM>
+    <MASM Include="AddTwo.asm">
+      <Filter>Source Files\Labs\Lab_1</Filter>
+    </MASM>
+    <MASM Include="MyAddTwo.asm">
+      <Filter>Source Files\Labs\Lab_2</Filter>
+    </MASM>
+    <MASM Include="MyAddVariables.asm">
+      <Filter>Source Files\Labs\Lab_2</Filter>
+    </MASM>
+    <MASM Include="InitializedArrays.asm">
+      <Filter>Source Files\Labs\Lab_2</Filter>
+    </MASM>
+    <MASM Include="BssArrays.asm">
+      <Filter>Source Files\Labs\Lab_2</Filter>
+    </MASM>
+    <MASM Include="task_1.asm">
+      <Filter>Source Files\Labs\Lab_3</Filter>
+    </MASM>
+    <MASM Include="task_2.asm">
+      <Filter>Source Files\Labs\Lab_3</Filter>
+    </MASM>
+    <MASM Include="task_3.asm">
+      <Filter>Source Files\Labs\Lab_3</Filter>
+    </MASM>
+    <MASM Include="debug.asm">
+      <Filter>Source Files\Labs\Lab_4</Filter>
+    </MASM>
+    <MASM Include="L5_T1_A.asm">
+      <Filter>Source Files\Labs\Lab_5</Filter>
+    </MASM>
+    <MASM Include="L5_T1_B.asm">
+      <Filter>Source Files\Labs\Lab_5</Filter>
+    </MASM>
+    <MASM Include="L5_T1_C.asm">
+      <Filter>Source Files\Labs\Lab_5</Filter>
+    </MASM>
+    <MASM Include="L5_T2.asm">
+      <Filter>Source Files\Labs\Lab_5</Filter>
+    </MASM>
+    <MASM Include="L5_T3.asm">
+      <Filter>Source Files\Labs\Lab_5</Filter>
+    </MASM>
+    <MASM Include="L5_T4.asm">
+      <Filter>Source Files\Labs\Lab_5</Filter>
+    </MASM>
+    <MASM Include="TestLib1.asm">
+      <Filter>Source Files\Labs\Lab_5.2</Filter>
+    </MASM>
+    <MASM Include="L5.2_TC_AddTwo.asm">
+      <Filter>Source Files\Labs\Lab_5.2</Filter>
+    </MASM>
+    <MASM Include="L5.2_TC_AddThree.asm">
+      <Filter>Source Files\Labs\Lab_5.2</Filter>
+    </MASM>
+    <MASM Include="L5.2_T2_centerX.asm">
+      <Filter>Source Files\Labs\Lab_5.2</Filter>
+    </MASM>
+    <MASM Include="L06_1_SwapCase.asm">
+      <Filter>Source Files\Labs\Lab_6.1</Filter>
+    </MASM>
+    <MASM Include="L06_1_T2.asm">
+      <Filter>Source Files\Labs\Lab_6.1</Filter>
+    </MASM>
+    <MASM Include="..\..\..\..\..\..\Irvine\ch06\32 bit\ArryScan.asm">
+      <Filter>Source Files\Labs\Lab_5.2</Filter>
+    </MASM>
+    <MASM Include="..\..\..\..\..\..\Irvine\ch06\32 bit\Encrypt.asm">
+      <Filter>Source Files\Labs\Lab_5.2</Filter>
+    </MASM>
+    <MASM Include="Lab_5.2_T4_Encrypt_Edited.asm">
+      <Filter>Source Files\Labs\Lab_5.2</Filter>
+    </MASM>
+    <MASM Include="L06_T3_Mov64.asm">
+      <Filter>Source Files\Labs\Lab_6.1</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
