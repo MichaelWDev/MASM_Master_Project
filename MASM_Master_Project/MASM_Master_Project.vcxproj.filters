@@ -46,6 +46,9 @@
     <Filter Include="Source Files\Labs\Lab_6.1">
       <UniqueIdentifier>{a3006694-f2fc-4275-a44b-87991208afd6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Lab_6.2">
+      <UniqueIdentifier>{e13fe433-eb68-4e4f-927a-aa84461b4b5c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <MASM Include="assignment_1.asm">
@@ -128,6 +131,18 @@
     </MASM>
     <MASM Include="L06_T3_Mov64.asm">
       <Filter>Source Files\Labs\Lab_6.1</Filter>
+    </MASM>
+    <MASM Include="..\..\..\..\..\..\Irvine\ch06\32 bit\SetCur.asm">
+      <Filter>Source Files\Lab_6.2</Filter>
+    </MASM>
+    <MASM Include="..\..\..\..\..\..\Irvine\ch06\32 bit\Finite.asm">
+      <Filter>Source Files\Lab_6.2</Filter>
+    </MASM>
+    <MASM Include="L6.2_T2_SetCurFSM.asm">
+      <Filter>Source Files\Lab_6.2</Filter>
+    </MASM>
+    <MASM Include="L6.2_T3_HexFSM.asm">
+      <Filter>Source Files\Lab_6.2</Filter>
     </MASM>
   </ItemGroup>
 </Project>
