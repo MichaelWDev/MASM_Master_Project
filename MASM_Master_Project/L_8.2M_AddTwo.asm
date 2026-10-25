@@ -11,6 +11,7 @@ EXTERNDEF sum:DWORD
 ExitProcess proto, dwExitCode:DWORD
 
 .data
+sum DWORD 0 ; ?
 word1 WORD 1234h
 word2 WORD 4111h
 

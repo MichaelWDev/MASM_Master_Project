@@ -49,6 +49,9 @@
     <Filter Include="Source Files\Lab_6.2">
       <UniqueIdentifier>{e13fe433-eb68-4e4f-927a-aa84461b4b5c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Labs\Lab_8.2_Modules">
+      <UniqueIdentifier>{abf28d21-756b-4e8d-a57c-5580084977a9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <MASM Include="assignment_1.asm">
@@ -144,5 +147,18 @@
     <MASM Include="L6.2_T3_HexFSM.asm">
       <Filter>Source Files\Lab_6.2</Filter>
     </MASM>
+    <MASM Include="L_8.2M_AddTwoProc.asm">
+      <Filter>Source Files\Labs\Lab_8.2_Modules</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="L_8.2M_AddTwo.asm">
+      <Filter>Source Files\Labs\Lab_8.2_Modules</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="L_8.2M_AddTwo.inc">
+      <Filter>Source Files\Labs\Lab_8.2_Modules</Filter>
+    </None>
   </ItemGroup>
 </Project>

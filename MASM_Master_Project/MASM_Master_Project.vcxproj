@@ -212,10 +212,13 @@
     <MASM Include="L6.2_T2_SetCurFSM.asm">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </MASM>
-    <MASM Include="L6.2_T3_HexFSM.asm" />
+    <MASM Include="L6.2_T3_HexFSM.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </MASM>
     <MASM Include="Lab_5.2_T4_Encrypt_Edited.asm">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </MASM>
+    <MASM Include="L_8.2M_AddTwoProc.asm" />
     <MASM Include="MyAddTwo.asm">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </MASM>
@@ -237,6 +240,12 @@
     <MASM Include="TestLib1.asm">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="L_8.2M_AddTwo.asm" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="L_8.2M_AddTwo.inc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
