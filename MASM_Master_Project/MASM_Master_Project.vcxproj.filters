@@ -52,6 +52,12 @@
     <Filter Include="Source Files\Labs\Lab_8.2_Modules">
       <UniqueIdentifier>{abf28d21-756b-4e8d-a57c-5580084977a9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Labs\Lab_7">
+      <UniqueIdentifier>{fa8be5c7-fd5c-4bd3-9fc0-0cb2b5335cb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Labs\Lab_9.2">
+      <UniqueIdentifier>{15b7c07a-1b03-4ada-8762-a6b725291240}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <MASM Include="assignment_1.asm">
@@ -155,10 +161,34 @@
     <ClCompile Include="L_8.2M_AddTwo.asm">
       <Filter>Source Files\Labs\Lab_8.2_Modules</Filter>
     </ClCompile>
+    <ClCompile Include="main1.c">
+      <Filter>Source Files\Labs\Lab_9.2</Filter>
+    </ClCompile>
+    <ClCompile Include="main2.c">
+      <Filter>Source Files\Labs\Lab_9.2</Filter>
+    </ClCompile>
+    <ClCompile Include="main3.c">
+      <Filter>Source Files\Labs\Lab_9.2</Filter>
+    </ClCompile>
+    <ClCompile Include="main4.c">
+      <Filter>Source Files\Labs\Lab_9.2</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="L_8.2M_AddTwo.inc">
       <Filter>Source Files\Labs\Lab_8.2_Modules</Filter>
+    </None>
+    <None Include="mul37.S">
+      <Filter>Source Files\Labs\Lab_7</Filter>
+    </None>
+    <None Include="mul37_2.S">
+      <Filter>Source Files\Labs\Lab_7</Filter>
+    </None>
+    <None Include="bmul32.S">
+      <Filter>Source Files\Labs\Lab_7</Filter>
+    </None>
+    <None Include="DAS.S">
+      <Filter>Source Files\Labs\Lab_7</Filter>
     </None>
   </ItemGroup>
 </Project>
