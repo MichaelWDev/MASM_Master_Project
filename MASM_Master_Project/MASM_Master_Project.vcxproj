@@ -272,6 +272,7 @@
     <ClCompile Include="main2.c" />
     <ClCompile Include="main3.c" />
     <ClCompile Include="main4.c" />
+    <ClCompile Include="square_root.c" />
   </ItemGroup>
   <ItemGroup>
     <None Include="bmul32.S" />
@@ -279,6 +280,8 @@
     <None Include="L_8.2M_AddTwo.inc" />
     <None Include="mul37.S" />
     <None Include="mul37_2.S" />
+    <None Include="square_root_proc.S" />
+    <None Include="struct.S" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
