@@ -58,6 +58,9 @@
     <Filter Include="Source Files\Labs\Lab_9.2">
       <UniqueIdentifier>{15b7c07a-1b03-4ada-8762-a6b725291240}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Labs\Lab_10">
+      <UniqueIdentifier>{a392c756-6e28-4fdb-9ab1-1ec92bff7510}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <MASM Include="assignment_1.asm">
@@ -156,6 +159,9 @@
     <MASM Include="L_8.2M_AddTwoProc.asm">
       <Filter>Source Files\Labs\Lab_8.2_Modules</Filter>
     </MASM>
+    <MASM Include="Task3.asm">
+      <Filter>Source Files\Labs\Lab_10</Filter>
+    </MASM>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="L_8.2M_AddTwo.asm">
@@ -173,6 +179,9 @@
     <ClCompile Include="main4.c">
       <Filter>Source Files\Labs\Lab_9.2</Filter>
     </ClCompile>
+    <ClCompile Include="square_root.c">
+      <Filter>Source Files\Labs\Lab_10</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="L_8.2M_AddTwo.inc">
@@ -189,6 +198,15 @@
     </None>
     <None Include="DAS.S">
       <Filter>Source Files\Labs\Lab_7</Filter>
+    </None>
+    <None Include="drunken_walk.S">
+      <Filter>Source Files\Labs\Lab_10</Filter>
+    </None>
+    <None Include="square_root_proc.S">
+      <Filter>Source Files\Labs\Lab_10</Filter>
+    </None>
+    <None Include="struct.S">
+      <Filter>Source Files\Labs\Lab_10</Filter>
     </None>
   </ItemGroup>
 </Project>
