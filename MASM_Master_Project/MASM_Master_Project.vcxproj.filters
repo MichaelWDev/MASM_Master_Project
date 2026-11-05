@@ -46,9 +46,6 @@
     <Filter Include="Source Files\Labs\Lab_6.1">
       <UniqueIdentifier>{a3006694-f2fc-4275-a44b-87991208afd6}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Lab_6.2">
-      <UniqueIdentifier>{e13fe433-eb68-4e4f-927a-aa84461b4b5c}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\Labs\Lab_8.2_Modules">
       <UniqueIdentifier>{abf28d21-756b-4e8d-a57c-5580084977a9}</UniqueIdentifier>
     </Filter>
@@ -60,6 +57,12 @@
     </Filter>
     <Filter Include="Source Files\Labs\Lab_10">
       <UniqueIdentifier>{a392c756-6e28-4fdb-9ab1-1ec92bff7510}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Labs\Lab_6.2">
+      <UniqueIdentifier>{e13fe433-eb68-4e4f-927a-aa84461b4b5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Labs\Lab_11.1">
+      <UniqueIdentifier>{e6c8987d-efbf-4877-bac8-bcecc08a2bb2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -145,16 +148,16 @@
       <Filter>Source Files\Labs\Lab_6.1</Filter>
     </MASM>
     <MASM Include="..\..\..\..\..\..\Irvine\ch06\32 bit\SetCur.asm">
-      <Filter>Source Files\Lab_6.2</Filter>
+      <Filter>Source Files\Labs\Lab_6.2</Filter>
     </MASM>
     <MASM Include="..\..\..\..\..\..\Irvine\ch06\32 bit\Finite.asm">
-      <Filter>Source Files\Lab_6.2</Filter>
+      <Filter>Source Files\Labs\Lab_6.2</Filter>
     </MASM>
     <MASM Include="L6.2_T2_SetCurFSM.asm">
-      <Filter>Source Files\Lab_6.2</Filter>
+      <Filter>Source Files\Labs\Lab_6.2</Filter>
     </MASM>
     <MASM Include="L6.2_T3_HexFSM.asm">
-      <Filter>Source Files\Lab_6.2</Filter>
+      <Filter>Source Files\Labs\Lab_6.2</Filter>
     </MASM>
     <MASM Include="L_8.2M_AddTwoProc.asm">
       <Filter>Source Files\Labs\Lab_8.2_Modules</Filter>
